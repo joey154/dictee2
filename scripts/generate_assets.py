@@ -165,17 +165,19 @@ import wave
 def generate_audio_tts(text: str, output_path: Path, slow: bool = False) -> bool:
     """Safe version that saves raw PCM as a playable WAV file."""
     
-    # Natural language steering for speed
-    prompt = f"Dites d'une voix féminine {'lentement' if slow else ''} : {text}"
+    prompt = text
 
-    minimal_config = {
-        "response_modalities": ["AUDIO"],
-        "speech_config": {
-            "voice_config": {
-                "prebuilt_voice_config": {"voice_name": "Aoede"}
-            }
-        }
-    }
+    minimal_config = types.GenerateContentConfig(
+        response_modalities=["AUDIO"],
+        speech_config=types.SpeechConfig(
+            language_code="fr-FR",
+            voice_config=types.VoiceConfig(
+                prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                    voice_name="Aoede",
+                )
+            ),
+        ),
+    )
 
     try:
         response = client.models.generate_content(
