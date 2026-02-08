@@ -1,125 +1,69 @@
 {
-  "generatedAt": "2026-02-06T19:50:22.235860",
+  "generatedAt": "2026-02-08T21:01:39.520039",
   "words": [
     {
-      "id": "aidez",
-      "text": "aidez",
-      "sentence": "Aidez-moi à trouver le trésor !",
-      "audioWord": "/audio/aidez_word.wav",
-      "audioSentence": "/audio/aidez_sentence.wav",
-      "image": "/images/aidez.png"
+      "id": "un pinceau",
+      "text": "un pinceau",
+      "sentence": "Je prends un pinceau magique.",
+      "audioWord": "/audio/un pinceau_word.wav",
+      "audioSentence": "/audio/un pinceau_sentence.wav",
+      "image": "/images/un pinceau.png"
     },
     {
-      "id": "aimez",
-      "text": "aimez",
-      "sentence": "Aimez-vous les dragons ?",
-      "audioWord": "/audio/aimez_word.wav",
-      "audioSentence": "/audio/aimez_sentence.wav",
-      "image": "/images/aimez.png"
+      "id": "un drapeau",
+      "text": "un drapeau",
+      "sentence": "Regarde, un drapeau rigolo !",
+      "audioWord": "/audio/un drapeau_word.wav",
+      "audioSentence": "/audio/un drapeau_sentence.wav",
+      "image": "/images/un drapeau.png"
     },
     {
-      "id": "allez",
-      "text": "allez",
-      "sentence": "Allez, on joue !",
-      "audioWord": "/audio/allez_word.wav",
-      "audioSentence": "/audio/allez_sentence.wav",
-      "image": "/images/allez.png"
+      "id": "un chapeau",
+      "text": "un chapeau",
+      "sentence": "Le chat porte un chapeau.",
+      "audioWord": "/audio/un chapeau_word.wav",
+      "audioSentence": "/audio/un chapeau_sentence.wav",
+      "image": "/images/un chapeau.png"
     },
     {
-      "id": "assez",
-      "text": "assez",
-      "sentence": "J'ai assez de bonbons !",
-      "audioWord": "/audio/assez_word.wav",
-      "audioSentence": "/audio/assez_sentence.wav",
-      "image": "/images/assez.png"
+      "id": "un gâteau",
+      "text": "un gâteau",
+      "sentence": "J'adore un gâteau !",
+      "audioWord": "/audio/un gâteau_word.wav",
+      "audioSentence": "/audio/un gâteau_sentence.wav",
+      "image": "/images/un gâteau.png"
     },
     {
-      "id": "avez",
-      "text": "avez",
-      "sentence": "Avez-vous un secret ?",
-      "audioWord": "/audio/avez_word.wav",
-      "audioSentence": "/audio/avez_sentence.wav",
-      "image": "/images/avez.png"
+      "id": "un manteau",
+      "text": "un manteau",
+      "sentence": "J'ai un manteau magique !",
+      "audioWord": "/audio/un manteau_word.wav",
+      "audioSentence": "/audio/un manteau_sentence.wav",
+      "image": "/images/un manteau.png"
     },
     {
-      "id": "buvez",
-      "text": "buvez",
-      "sentence": "Buvez du jus, super-héros !",
-      "audioWord": "/audio/buvez_word.wav",
-      "audioSentence": "/audio/buvez_sentence.wav",
-      "image": "/images/buvez.png"
+      "id": "un morceau",
+      "text": "un morceau",
+      "sentence": "Le singe prend un morceau de banane.",
+      "audioWord": "/audio/un morceau_word.wav",
+      "audioSentence": "/audio/un morceau_sentence.wav",
+      "image": "/images/un morceau.png"
     },
     {
-      "id": "courez",
-      "text": "courez",
-      "sentence": "Courez après le ballon !",
-      "audioWord": "/audio/courez_word.wav",
-      "audioSentence": "/audio/courez_sentence.wav",
-      "image": "/images/courez.png"
+      "id": "un tableau",
+      "text": "un tableau",
+      "sentence": "Papa peint un tableau rigolo.",
+      "audioWord": "/audio/un tableau_word.wav",
+      "audioSentence": "/audio/un tableau_sentence.wav",
+      "image": "/images/un tableau.png"
     },
     {
-      "id": "écoutez",
-      "text": "écoutez",
-      "sentence": "Écoutez un secret !",
-      "audioWord": "/audio/écoutez_word.wav",
-      "audioSentence": "/audio/écoutez_sentence.wav",
-      "image": "/images/écoutez.png"
-    },
-    {
-      "id": "fêtez",
-      "text": "fêtez",
-      "sentence": "Fêtez la musique !",
-      "audioWord": "/audio/fêtez_word.wav",
-      "audioSentence": "/audio/fêtez_sentence.wav",
-      "image": "/images/fêtez.png"
-    },
-    {
-      "id": "levez",
-      "text": "levez",
-      "sentence": "Levez les bras comme un oiseau !",
-      "audioWord": "/audio/levez_word.wav",
-      "audioSentence": "/audio/levez_sentence.wav",
-      "image": "/images/levez.png"
-    },
-    {
-      "id": "nez",
-      "text": "nez",
-      "sentence": "Le clown a un nez rouge.",
-      "audioWord": "/audio/nez_word.wav",
-      "audioSentence": "/audio/nez_sentence.wav",
-      "image": "/images/nez.png"
-    },
-    {
-      "id": "parlez",
-      "text": "parlez",
-      "sentence": "Parlez avec le robot !",
-      "audioWord": "/audio/parlez_word.wav",
-      "audioSentence": "/audio/parlez_sentence.wav",
-      "image": "/images/parlez.png"
-    },
-    {
-      "id": "tirez",
-      "text": "tirez",
-      "sentence": "Tirez la ficelle magique !",
-      "audioWord": "/audio/tirez_word.wav",
-      "audioSentence": "/audio/tirez_sentence.wav",
-      "image": "/images/tirez.png"
-    },
-    {
-      "id": "venez",
-      "text": "venez",
-      "sentence": "Venez chercher le trésor !",
-      "audioWord": "/audio/venez_word.wav",
-      "audioSentence": "/audio/venez_sentence.wav",
-      "image": "/images/venez.png"
-    },
-    {
-      "id": "voulez",
-      "text": "voulez",
-      "sentence": "Vous voulez un bonbon ?",
-      "audioWord": "/audio/voulez_word.wav",
-      "audioSentence": "/audio/voulez_sentence.wav",
-      "image": "/images/voulez.png"
+      "id": "un bateau",
+      "text": "un bateau",
+      "sentence": "Un bateau voyage loin!",
+      "audioWord": "/audio/un bateau_word.wav",
+      "audioSentence": "/audio/un bateau_sentence.wav",
+      "image": "/images/un bateau.png"
     }
   ]
 }

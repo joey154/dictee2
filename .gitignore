@@ -27,5 +27,11 @@ npm-debug.log*
 .cache/
 .eslintcache
 
+# Python venv
+scripts/venv/
+
 # Claude Code
 .claude/
+
+# Handoff docs
+handoff/
