@@ -1,15 +1,8 @@
-aidez
-aimez
-allez
-assez
-avez
-buvez
-courez
-écoutez
-fêtez
-levez
-nez
-parlez
-tirez
-venez
-voulez
+un pinceau
+un drapeau
+un chapeau
+un gâteau
+un manteau
+un morceau
+un tableau
+un bateau
