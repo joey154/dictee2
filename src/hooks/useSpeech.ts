@@ -27,7 +27,7 @@ export function useSpeech(): UseSpeechReturn {
   const speakAudio = useCallback((audioPath: string) => {
     stop();
 
-    const audio = new Audio(audioPath);
+    const audio = new Audio(encodeURI(audioPath));
     audioRef.current = audio;
 
     audio.onplay = () => setSpeaking(true);

@@ -97,7 +97,7 @@ export default function Exploration({
                 </div>
               )}
               <img
-                src={word.image}
+                src={encodeURI(word.image)}
                 alt={word.text}
                 className={`w-full h-48 object-cover transition-opacity duration-300 ${
                   imageLoaded ? 'opacity-100' : 'opacity-0'
