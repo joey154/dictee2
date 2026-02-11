@@ -1,4 +1,4 @@
-import { GameMode, Word, WordProgress, DicteeMetadata } from '../../types';
+import { GameMode, Word, WordProgress, DicteeMetadata, WeekInfo } from '../../types';
 
 interface ModeSelectorProps {
   onSelectMode: (mode: GameMode) => void;
@@ -9,6 +9,9 @@ interface ModeSelectorProps {
   progress: Record<string, WordProgress>;
   words: Word[];
   metadata: DicteeMetadata | null;
+  weeks: WeekInfo[];
+  selectedWeek: WeekInfo | null;
+  onSelectWeek: (week: WeekInfo) => void;
 }
 
 const MODES: { id: GameMode; emoji: string; title: string; description: string; color: string }[] = [
@@ -51,6 +54,9 @@ export default function ModeSelector({
   progress,
   words,
   metadata,
+  weeks,
+  selectedWeek,
+  onSelectWeek,
 }: ModeSelectorProps) {
   const masteredCount = words.filter(w => progress[w.id]?.mastered).length;
 
@@ -65,6 +71,27 @@ export default function ModeSelector({
           Pratique ton français!
         </p>
       </div>
+
+      {/* Week selector */}
+      {weeks.length > 1 && (
+        <div className="mx-auto mb-4 max-w-sm w-full">
+          <select
+            value={selectedWeek?.id || ''}
+            onChange={(e) => {
+              const week = weeks.find(w => w.id === e.target.value);
+              if (week) onSelectWeek(week);
+            }}
+            className="w-full bg-white/20 text-white border border-white/30 rounded-2xl px-4 py-3 text-center text-lg font-semibold appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-white/50"
+            style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'12\' height=\'12\' viewBox=\'0 0 12 12\'%3E%3Cpath d=\'M6 8L1 3h10z\' fill=\'white\'/%3E%3C/svg%3E")', backgroundRepeat: 'no-repeat', backgroundPosition: 'right 16px center' }}
+          >
+            {weeks.map(week => (
+              <option key={week.id} value={week.id} className="text-gray-900">
+                {week.current ? `📌 ${week.label}` : week.label}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
 
       {/* Progress summary */}
       {hasWords && (

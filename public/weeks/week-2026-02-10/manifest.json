@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-02-11T01:45:49.768189",
+  "words": [
+    {
+      "id": "le gazon",
+      "text": "le gazon",
+      "audioWord": "/weeks/week-2026-02-10/audio/le gazon_word.wav",
+      "image": "/weeks/week-2026-02-10/images/le gazon.png",
+      "sentence": "Je joue sur le gazon.",
+      "audioSentence": "/weeks/week-2026-02-10/audio/le gazon_sentence.wav"
+    },
+    {
+      "id": "un gâteau",
+      "text": "un gâteau",
+      "sentence": "J'adore un gâteau !",
+      "audioWord": "/weeks/week-2026-02-10/audio/un gâteau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-10/audio/un gâteau_sentence.wav",
+      "image": "/weeks/week-2026-02-10/images/un gâteau.png"
+    },
+    {
+      "id": "un dragon",
+      "text": "un dragon",
+      "audioWord": "/weeks/week-2026-02-10/audio/un dragon_word.wav",
+      "image": "/weeks/week-2026-02-10/images/un dragon.png",
+      "sentence": "Un dragon aime les bonbons.",
+      "audioSentence": "/weeks/week-2026-02-10/audio/un dragon_sentence.wav"
+    },
+    {
+      "id": "un gland",
+      "text": "un gland",
+      "audioWord": "/weeks/week-2026-02-10/audio/un gland_word.wav",
+      "sentence": "Un écureuil mange un gland.",
+      "audioSentence": "/weeks/week-2026-02-10/audio/un gland_sentence.wav",
+      "image": "/weeks/week-2026-02-10/images/un gland.png"
+    },
+    {
+      "id": "fatigué",
+      "text": "fatigué",
+      "audioWord": "/weeks/week-2026-02-10/audio/fatigué_word.wav",
+      "sentence": "Mon ballon est fatigué de rouler !",
+      "audioSentence": "/weeks/week-2026-02-10/audio/fatigué_sentence.wav",
+      "image": "/weeks/week-2026-02-10/images/fatigué.png"
+    },
+    {
+      "id": "une guitare",
+      "text": "une guitare",
+      "audioWord": "/weeks/week-2026-02-10/audio/une guitare_word.wav",
+      "image": "/weeks/week-2026-02-10/images/une guitare.png",
+      "sentence": "Le chat regarde une guitare.",
+      "audioSentence": "/weeks/week-2026-02-10/audio/une guitare_sentence.wav"
+    },
+    {
+      "id": "regarde",
+      "text": "regarde",
+      "audioWord": "/weeks/week-2026-02-10/audio/regarde_word.wav",
+      "sentence": "Regarde le clown rigolo !",
+      "audioSentence": "/weeks/week-2026-02-10/audio/regarde_sentence.wav",
+      "image": "/weeks/week-2026-02-10/images/regarde.png"
+    },
+    {
+      "id": "une galerie",
+      "text": "une galerie",
+      "sentence": "Je vois une galerie pleine de couleurs.",
+      "audioWord": "/weeks/week-2026-02-10/audio/une galerie_word.wav",
+      "audioSentence": "/weeks/week-2026-02-10/audio/une galerie_sentence.wav",
+      "image": "/weeks/week-2026-02-10/images/une galerie.png"
+    }
+  ]
+}

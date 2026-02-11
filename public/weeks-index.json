@@ -1,0 +1,19 @@
+{
+  "weeks": [
+    {
+      "id": "week-2026-02-10",
+      "label": "10 fév — g dur",
+      "sound": "g dur",
+      "date": "2026-02-10",
+      "path": "",
+      "current": true
+    },
+    {
+      "id": "week-2026-02-03",
+      "label": "3 fév — eau",
+      "sound": "eau",
+      "date": "2026-02-03",
+      "path": "/weeks/week-2026-02-03"
+    }
+  ]
+}

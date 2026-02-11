@@ -1,9 +1,10 @@
 import yaml from 'js-yaml';
 import { DicteeMetadata } from '../types';
 
-export async function fetchMetadata(): Promise<DicteeMetadata | null> {
+export async function fetchMetadata(weekPath?: string): Promise<DicteeMetadata | null> {
+  const metadataUrl = weekPath ? `${weekPath}/metadata.yaml` : '/metadata.yaml';
   try {
-    const response = await fetch('/metadata.yaml');
+    const response = await fetch(metadataUrl);
     if (!response.ok) return null;
     const text = await response.text();
     return yaml.load(text) as DicteeMetadata;

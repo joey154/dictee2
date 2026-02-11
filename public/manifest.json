@@ -1,29 +1,13 @@
 {
-  "generatedAt": "2026-02-08T21:01:39.520039",
+  "generatedAt": "2026-02-11T01:45:49.768189",
   "words": [
     {
-      "id": "un pinceau",
-      "text": "un pinceau",
-      "sentence": "Je prends un pinceau magique.",
-      "audioWord": "/audio/un pinceau_word.wav",
-      "audioSentence": "/audio/un pinceau_sentence.wav",
-      "image": "/images/un pinceau.png"
-    },
-    {
-      "id": "un drapeau",
-      "text": "un drapeau",
-      "sentence": "Regarde, un drapeau rigolo !",
-      "audioWord": "/audio/un drapeau_word.wav",
-      "audioSentence": "/audio/un drapeau_sentence.wav",
-      "image": "/images/un drapeau.png"
-    },
-    {
-      "id": "un chapeau",
-      "text": "un chapeau",
-      "sentence": "Le chat porte un chapeau.",
-      "audioWord": "/audio/un chapeau_word.wav",
-      "audioSentence": "/audio/un chapeau_sentence.wav",
-      "image": "/images/un chapeau.png"
+      "id": "le gazon",
+      "text": "le gazon",
+      "audioWord": "/audio/le gazon_word.wav",
+      "image": "/images/le gazon.png",
+      "sentence": "Je joue sur le gazon.",
+      "audioSentence": "/audio/le gazon_sentence.wav"
     },
     {
       "id": "un gâteau",
@@ -34,36 +18,52 @@
       "image": "/images/un gâteau.png"
     },
     {
-      "id": "un manteau",
-      "text": "un manteau",
-      "sentence": "J'ai un manteau magique !",
-      "audioWord": "/audio/un manteau_word.wav",
-      "audioSentence": "/audio/un manteau_sentence.wav",
-      "image": "/images/un manteau.png"
+      "id": "un dragon",
+      "text": "un dragon",
+      "audioWord": "/audio/un dragon_word.wav",
+      "image": "/images/un dragon.png",
+      "sentence": "Un dragon aime les bonbons.",
+      "audioSentence": "/audio/un dragon_sentence.wav"
     },
     {
-      "id": "un morceau",
-      "text": "un morceau",
-      "sentence": "Le singe prend un morceau de banane.",
-      "audioWord": "/audio/un morceau_word.wav",
-      "audioSentence": "/audio/un morceau_sentence.wav",
-      "image": "/images/un morceau.png"
+      "id": "un gland",
+      "text": "un gland",
+      "audioWord": "/audio/un gland_word.wav",
+      "sentence": "Un écureuil mange un gland.",
+      "audioSentence": "/audio/un gland_sentence.wav",
+      "image": "/images/un gland.png"
     },
     {
-      "id": "un tableau",
-      "text": "un tableau",
-      "sentence": "Papa peint un tableau rigolo.",
-      "audioWord": "/audio/un tableau_word.wav",
-      "audioSentence": "/audio/un tableau_sentence.wav",
-      "image": "/images/un tableau.png"
+      "id": "fatigué",
+      "text": "fatigué",
+      "audioWord": "/audio/fatigué_word.wav",
+      "sentence": "Mon ballon est fatigué de rouler !",
+      "audioSentence": "/audio/fatigué_sentence.wav",
+      "image": "/images/fatigué.png"
     },
     {
-      "id": "un bateau",
-      "text": "un bateau",
-      "sentence": "Un bateau voyage loin!",
-      "audioWord": "/audio/un bateau_word.wav",
-      "audioSentence": "/audio/un bateau_sentence.wav",
-      "image": "/images/un bateau.png"
+      "id": "une guitare",
+      "text": "une guitare",
+      "audioWord": "/audio/une guitare_word.wav",
+      "image": "/images/une guitare.png",
+      "sentence": "Le chat regarde une guitare.",
+      "audioSentence": "/audio/une guitare_sentence.wav"
+    },
+    {
+      "id": "regarde",
+      "text": "regarde",
+      "audioWord": "/audio/regarde_word.wav",
+      "sentence": "Regarde le clown rigolo !",
+      "audioSentence": "/audio/regarde_sentence.wav",
+      "image": "/images/regarde.png"
+    },
+    {
+      "id": "une galerie",
+      "text": "une galerie",
+      "sentence": "Je vois une galerie pleine de couleurs.",
+      "audioWord": "/audio/une galerie_word.wav",
+      "audioSentence": "/audio/une galerie_sentence.wav",
+      "image": "/images/une galerie.png"
     }
   ]
 }

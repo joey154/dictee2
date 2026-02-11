@@ -45,3 +45,16 @@ export interface DicteeMetadata {
     date_of_generation: string;
   };
 }
+
+export interface WeekInfo {
+  id: string;        // e.g. "week-2026-02-10"
+  label: string;     // e.g. "10 fév"
+  sound: string;     // e.g. "g dur"
+  date: string;      // e.g. "2026-02-10"
+  path: string;      // e.g. "/weeks/week-2026-02-10"
+  current?: boolean;
+}
+
+export interface WeeksIndex {
+  weeks: WeekInfo[];
+}

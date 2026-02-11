@@ -9,7 +9,7 @@ interface UseWordListReturn {
   refetch: () => void;
 }
 
-export function useWordList(): UseWordListReturn {
+export function useWordList(weekPath?: string): UseWordListReturn {
   const [words, setWords] = useState<Word[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -18,7 +18,7 @@ export function useWordList(): UseWordListReturn {
     setLoading(true);
     setError(null);
     try {
-      const fetchedWords = await fetchWordsFromFile();
+      const fetchedWords = await fetchWordsFromFile(weekPath);
       setWords(fetchedWords);
     } catch (err) {
       setError('Failed to load words');
@@ -30,7 +30,7 @@ export function useWordList(): UseWordListReturn {
 
   useEffect(() => {
     loadWords();
-  }, []);
+  }, [weekPath]);
 
   return { words, loading, error, refetch: loadWords };
 }

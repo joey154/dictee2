@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-02-08T21:21:30.844531",
+  "words": [
+    {
+      "id": "un pinceau",
+      "text": "un pinceau",
+      "sentence": "Je prends un pinceau magique.",
+      "audioWord": "/weeks/week-2026-02-03/audio/un pinceau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un pinceau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un pinceau.png"
+    },
+    {
+      "id": "un drapeau",
+      "text": "un drapeau",
+      "sentence": "Regarde, un drapeau rigolo !",
+      "audioWord": "/weeks/week-2026-02-03/audio/un drapeau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un drapeau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un drapeau.png"
+    },
+    {
+      "id": "un chapeau",
+      "text": "un chapeau",
+      "sentence": "Le chat porte un chapeau.",
+      "audioWord": "/weeks/week-2026-02-03/audio/un chapeau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un chapeau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un chapeau.png"
+    },
+    {
+      "id": "un gâteau",
+      "text": "un gâteau",
+      "sentence": "J'adore un gâteau !",
+      "audioWord": "/weeks/week-2026-02-03/audio/un gâteau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un gâteau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un gâteau.png"
+    },
+    {
+      "id": "un manteau",
+      "text": "un manteau",
+      "sentence": "J'ai un manteau magique !",
+      "audioWord": "/weeks/week-2026-02-03/audio/un manteau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un manteau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un manteau.png"
+    },
+    {
+      "id": "un morceau",
+      "text": "un morceau",
+      "sentence": "Le singe prend un morceau de banane.",
+      "audioWord": "/weeks/week-2026-02-03/audio/un morceau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un morceau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un morceau.png"
+    },
+    {
+      "id": "un tableau",
+      "text": "un tableau",
+      "sentence": "Papa peint un tableau rigolo.",
+      "audioWord": "/weeks/week-2026-02-03/audio/un tableau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un tableau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un tableau.png"
+    },
+    {
+      "id": "un bateau",
+      "text": "un bateau",
+      "sentence": "Un bateau voyage loin!",
+      "audioWord": "/weeks/week-2026-02-03/audio/un bateau_word.wav",
+      "audioSentence": "/weeks/week-2026-02-03/audio/un bateau_sentence.wav",
+      "image": "/weeks/week-2026-02-03/images/un bateau.png"
+    }
+  ]
+}

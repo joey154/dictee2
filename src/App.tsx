@@ -3,6 +3,7 @@ import { GameMode, GameSession } from './types';
 import { useWordList } from './hooks/useWordList';
 import { useProgress } from './hooks/useProgress';
 import { useMetadata } from './hooks/useMetadata';
+import { useWeeks } from './hooks/useWeeks';
 import ModeSelector from './components/layout/ModeSelector';
 import GameSummary from './components/layout/GameSummary';
 import AudioMatch from './components/modes/AudioMatch';
@@ -16,9 +17,11 @@ const SESSION_SIZE = 10;
 function App() {
   const [showWordList, setShowWordList] = useState(false);
   const [session, setSession] = useState<GameSession | null>(null);
-  const { words, loading, error, refetch } = useWordList();
+  const { weeks, selectedWeek, setSelectedWeek } = useWeeks();
+  const weekPath = selectedWeek?.path || undefined;
+  const { words, loading, error, refetch } = useWordList(weekPath);
   const { progress, recordAttempt, getWordsForPractice } = useProgress();
-  const metadata = useMetadata();
+  const metadata = useMetadata(weekPath);
 
   const startGame = (mode: GameMode) => {
     const practiceWords = getWordsForPractice(words, SESSION_SIZE);
@@ -132,6 +135,9 @@ function App() {
       progress={progress}
       words={words}
       metadata={metadata}
+      weeks={weeks}
+      selectedWeek={selectedWeek}
+      onSelectWeek={setSelectedWeek}
     />
   );
 }
