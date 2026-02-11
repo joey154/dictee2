@@ -162,10 +162,12 @@ Return ONLY the French sentence, nothing else."""
 
 import wave
 
-def generate_audio_tts(text: str, output_path: Path, slow: bool = False) -> bool:
+def generate_audio_tts(text: str, output_path: Path, slow: bool = False, is_word: bool = False) -> bool:
     """Safe version that saves raw PCM as a playable WAV file."""
-    
-    prompt = text
+
+    # For single words, wrap in French context to force French pronunciation.
+    # Without this, words that exist in English (e.g. "gland") get English phonetics.
+    prompt = f"Le mot : {text}." if is_word else text
 
     minimal_config = types.GenerateContentConfig(
         response_modalities=["AUDIO"],
@@ -298,7 +300,7 @@ def process_word(word: str, existing_data: dict | None = None) -> dict:
     word_audio_path = AUDIO_DIR / f"{word}_word.wav"
     if needs["audioWord"]:
         print(f"  Generating word audio...")
-        if generate_audio_tts(word, word_audio_path, slow=True):
+        if generate_audio_tts(word, word_audio_path, slow=True, is_word=True):
             result["audioWord"] = f"/audio/{word}_word.wav"
             generated.append("audioWord")
         else:
