@@ -9,8 +9,10 @@ This script reads words from words_of_week.txt and generates:
 
 Usage:
     pip install -r requirements.txt
-    export GOOGLE_PROJECT_NAME=project_name
+    export GEMINI_API_KEY=your_api_key
     python generate_assets.py
+
+    Alternatively, set GOOGLE_PROJECT_NAME for Vertex AI mode (requires OAuth).
 """
 
 import os
@@ -32,22 +34,32 @@ from io import BytesIO
 # Load environment variables
 load_dotenv()
 
-# Configuration
+# Configuration — prefer API key (never expires), fall back to Vertex AI (needs OAuth)
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GOOGLE_PROJECT_NAME = os.getenv("GOOGLE_PROJECT_NAME")
-if not GOOGLE_PROJECT_NAME:
-    raise ValueError("GOOGLE_PROJECT_NAME environment variable is required")
 
-language_model = "gemini-2.5-flash"
-image_model = "imagen-3.0-generate-002"
-speech_model= "gemini-2.5-flash-tts"
-
-# 1. Setup the Client for Vertex AI
-# Ensure you have 'GOOGLE_CLOUD_PROJECT' set in your environment
-client = genai.Client(
-    vertexai=True, 
-    project=GOOGLE_PROJECT_NAME,
-    location="us-central1"
-) 
+if GEMINI_API_KEY:
+    # API key mode: no OAuth needed, no expiration
+    client = genai.Client(api_key=GEMINI_API_KEY)
+    language_model = "gemini-2.5-flash"
+    image_model = "imagen-4.0-generate-001"
+    speech_model = "gemini-2.5-flash-preview-tts"
+    print(f"Using Gemini API key (no OAuth required)")
+elif GOOGLE_PROJECT_NAME:
+    # Vertex AI mode: requires OAuth/ADC, may need periodic re-auth
+    client = genai.Client(
+        vertexai=True,
+        project=GOOGLE_PROJECT_NAME,
+        location="us-central1"
+    )
+    language_model = "gemini-2.5-flash"
+    image_model = "imagen-3.0-generate-002"
+    speech_model = "gemini-2.5-flash-tts"
+    print(f"Using Vertex AI (project: {GOOGLE_PROJECT_NAME})")
+else:
+    raise ValueError(
+        "Set GEMINI_API_KEY (recommended) or GOOGLE_PROJECT_NAME environment variable"
+    )
 
 # Paths
 SCRIPT_DIR = Path(__file__).parent
