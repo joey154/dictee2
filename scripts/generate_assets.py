@@ -232,13 +232,17 @@ def generate_image(sentence: str, word: str, output_path: Path) -> bool:
             print(f"    Rate limit: waiting {wait_time:.0f}s before image generation...")
             time.sleep(wait_time)
 
-    # Use 'ALLOW_ALL' for person_generation to permit images of children
+    # Gemini API key mode currently rejects person_generation=ALLOW_ALL.
+    # Omit it there; keep the looser setting only for Vertex AI fallback.
     image_config = {
         "number_of_images": 1,
-        "person_generation": "ALLOW_ALL", 
         "aspect_ratio": "1:1",
-        "safety_filter_level": "BLOCK_ONLY_HIGH" # Least restrictive setting
     }
+    if GEMINI_API_KEY:
+        image_config["safety_filter_level"] = "BLOCK_LOW_AND_ABOVE"
+    else:
+        image_config["safety_filter_level"] = "BLOCK_ONLY_HIGH" # Least restrictive setting
+        image_config["person_generation"] = "ALLOW_ALL"
 
     # Attempt 1: The original creative prompt
     prompts_to_try = [

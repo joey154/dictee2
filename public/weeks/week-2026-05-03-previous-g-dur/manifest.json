@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-02-11T01:45:49.768189",
+  "words": [
+    {
+      "id": "le gazon",
+      "text": "le gazon",
+      "audioWord": "/audio/le gazon_word.wav",
+      "image": "/images/le gazon.png",
+      "sentence": "Je joue sur le gazon.",
+      "audioSentence": "/audio/le gazon_sentence.wav"
+    },
+    {
+      "id": "un gâteau",
+      "text": "un gâteau",
+      "sentence": "J'adore un gâteau !",
+      "audioWord": "/audio/un gâteau_word.wav",
+      "audioSentence": "/audio/un gâteau_sentence.wav",
+      "image": "/images/un gâteau.png"
+    },
+    {
+      "id": "un dragon",
+      "text": "un dragon",
+      "audioWord": "/audio/un dragon_word.wav",
+      "image": "/images/un dragon.png",
+      "sentence": "Un dragon aime les bonbons.",
+      "audioSentence": "/audio/un dragon_sentence.wav"
+    },
+    {
+      "id": "un gland",
+      "text": "un gland",
+      "audioWord": "/audio/un gland_word.wav",
+      "sentence": "Un écureuil mange un gland.",
+      "audioSentence": "/audio/un gland_sentence.wav",
+      "image": "/images/un gland.png"
+    },
+    {
+      "id": "fatigué",
+      "text": "fatigué",
+      "audioWord": "/audio/fatigué_word.wav",
+      "sentence": "Mon ballon est fatigué de rouler !",
+      "audioSentence": "/audio/fatigué_sentence.wav",
+      "image": "/images/fatigué.png"
+    },
+    {
+      "id": "une guitare",
+      "text": "une guitare",
+      "audioWord": "/audio/une guitare_word.wav",
+      "image": "/images/une guitare.png",
+      "sentence": "Le chat regarde une guitare.",
+      "audioSentence": "/audio/une guitare_sentence.wav"
+    },
+    {
+      "id": "regarde",
+      "text": "regarde",
+      "audioWord": "/audio/regarde_word.wav",
+      "sentence": "Regarde le clown rigolo !",
+      "audioSentence": "/audio/regarde_sentence.wav",
+      "image": "/images/regarde.png"
+    },
+    {
+      "id": "une galerie",
+      "text": "une galerie",
+      "sentence": "Je vois une galerie pleine de couleurs.",
+      "audioWord": "/audio/une galerie_word.wav",
+      "audioSentence": "/audio/une galerie_sentence.wav",
+      "image": "/images/une galerie.png"
+    }
+  ]
+}

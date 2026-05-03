@@ -1,69 +1,69 @@
 {
-  "generatedAt": "2026-02-11T01:45:49.768189",
+  "generatedAt": "2026-05-03T15:00:05.133557",
   "words": [
     {
-      "id": "le gazon",
-      "text": "le gazon",
-      "audioWord": "/audio/le gazon_word.wav",
-      "image": "/images/le gazon.png",
-      "sentence": "Je joue sur le gazon.",
-      "audioSentence": "/audio/le gazon_sentence.wav"
+      "id": "la couleur",
+      "text": "la couleur",
+      "sentence": "Devine la couleur de ma fleur !",
+      "audioWord": "/audio/la couleur_word.wav",
+      "audioSentence": "/audio/la couleur_sentence.wav",
+      "image": "/images/la couleur.png"
     },
     {
-      "id": "un gâteau",
-      "text": "un gâteau",
-      "sentence": "J'adore un gâteau !",
-      "audioWord": "/audio/un gâteau_word.wav",
-      "audioSentence": "/audio/un gâteau_sentence.wav",
-      "image": "/images/un gâteau.png"
+      "id": "la chaleur",
+      "text": "la chaleur",
+      "sentence": "La glace fond avec la chaleur !",
+      "audioWord": "/audio/la chaleur_word.wav",
+      "audioSentence": "/audio/la chaleur_sentence.wav",
+      "image": "/images/la chaleur.png"
     },
     {
-      "id": "un dragon",
-      "text": "un dragon",
-      "audioWord": "/audio/un dragon_word.wav",
-      "image": "/images/un dragon.png",
-      "sentence": "Un dragon aime les bonbons.",
-      "audioSentence": "/audio/un dragon_sentence.wav"
+      "id": "une fleur",
+      "text": "une fleur",
+      "sentence": "Regarde, une fleur jaune !",
+      "audioWord": "/audio/une fleur_word.wav",
+      "audioSentence": "/audio/une fleur_sentence.wav",
+      "image": "/images/une fleur.png"
     },
     {
-      "id": "un gland",
-      "text": "un gland",
-      "audioWord": "/audio/un gland_word.wav",
-      "sentence": "Un écureuil mange un gland.",
-      "audioSentence": "/audio/un gland_sentence.wav",
-      "image": "/images/un gland.png"
+      "id": "un danseur",
+      "text": "un danseur",
+      "sentence": "Un danseur tourne comme une toupie !",
+      "audioWord": "/audio/un danseur_word.wav",
+      "audioSentence": "/audio/un danseur_sentence.wav",
+      "image": "/images/un danseur.png"
     },
     {
-      "id": "fatigué",
-      "text": "fatigué",
-      "audioWord": "/audio/fatigué_word.wav",
-      "sentence": "Mon ballon est fatigué de rouler !",
-      "audioSentence": "/audio/fatigué_sentence.wav",
-      "image": "/images/fatigué.png"
+      "id": "un chanteur",
+      "text": "un chanteur",
+      "sentence": "Un chanteur porte un chapeau rigolo.",
+      "audioWord": "/audio/un chanteur_word.wav",
+      "audioSentence": "/audio/un chanteur_sentence.wav",
+      "image": "/images/un chanteur.png"
     },
     {
-      "id": "une guitare",
-      "text": "une guitare",
-      "audioWord": "/audio/une guitare_word.wav",
-      "image": "/images/une guitare.png",
-      "sentence": "Le chat regarde une guitare.",
-      "audioSentence": "/audio/une guitare_sentence.wav"
+      "id": "le facteur",
+      "text": "le facteur",
+      "sentence": "Le facteur fait ding dong à la porte !",
+      "audioWord": "/audio/le facteur_word.wav",
+      "audioSentence": "/audio/le facteur_sentence.wav",
+      "image": "/images/le facteur.png"
     },
     {
-      "id": "regarde",
-      "text": "regarde",
-      "audioWord": "/audio/regarde_word.wav",
-      "sentence": "Regarde le clown rigolo !",
-      "audioSentence": "/audio/regarde_sentence.wav",
-      "image": "/images/regarde.png"
+      "id": "l’auteur",
+      "text": "l’auteur",
+      "sentence": "L’auteur invente des aventures magiques.",
+      "audioWord": "/audio/l’auteur_word.wav",
+      "audioSentence": "/audio/l’auteur_sentence.wav",
+      "image": "/images/l’auteur.png"
     },
     {
-      "id": "une galerie",
-      "text": "une galerie",
-      "sentence": "Je vois une galerie pleine de couleurs.",
-      "audioWord": "/audio/une galerie_word.wav",
-      "audioSentence": "/audio/une galerie_sentence.wav",
-      "image": "/images/une galerie.png"
+      "id": "la saveur",
+      "text": "la saveur",
+      "sentence": "J'aime la saveur de ce gâteau !",
+      "audioWord": "/audio/la saveur_word.wav",
+      "audioSentence": "/audio/la saveur_sentence.wav",
+      "image": "/images/la saveur.png"
     }
   ]
 }
