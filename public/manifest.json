@@ -1,69 +1,68 @@
 {
-  "generatedAt": "2026-05-03T15:00:05.133557",
+  "generatedAt": "2026-05-07T15:31:17.779160",
   "words": [
     {
-      "id": "la couleur",
-      "text": "la couleur",
-      "sentence": "Devine la couleur de ma fleur !",
-      "audioWord": "/audio/la couleur_word.wav",
-      "audioSentence": "/audio/la couleur_sentence.wav",
-      "image": "/images/la couleur.png"
+      "id": "une cheville",
+      "text": "une cheville",
+      "sentence": "Un éléphant a une cheville très grosse.",
+      "audioWord": "/audio/une cheville_word.wav",
+      "audioSentence": "/audio/une cheville_sentence.wav",
+      "image": "/images/une cheville.png"
     },
     {
-      "id": "la chaleur",
-      "text": "la chaleur",
-      "sentence": "La glace fond avec la chaleur !",
-      "audioWord": "/audio/la chaleur_word.wav",
-      "audioSentence": "/audio/la chaleur_sentence.wav",
-      "image": "/images/la chaleur.png"
+      "id": "un papillon",
+      "text": "un papillon",
+      "sentence": "Un papillon danse dans les fleurs.",
+      "audioWord": "/audio/un papillon_word.wav",
+      "audioSentence": "/audio/un papillon_sentence.wav",
+      "image": "/images/un papillon.png"
     },
     {
-      "id": "une fleur",
-      "text": "une fleur",
-      "sentence": "Regarde, une fleur jaune !",
-      "audioWord": "/audio/une fleur_word.wav",
-      "audioSentence": "/audio/une fleur_sentence.wav",
-      "image": "/images/une fleur.png"
+      "id": "la vanille",
+      "text": "la vanille",
+      "sentence": "Miam, la vanille est si bonne !",
+      "audioWord": "/audio/la vanille_word.wav",
+      "audioSentence": "/audio/la vanille_sentence.wav",
+      "image": "/images/la vanille.png"
     },
     {
-      "id": "un danseur",
-      "text": "un danseur",
-      "sentence": "Un danseur tourne comme une toupie !",
-      "audioWord": "/audio/un danseur_word.wav",
-      "audioSentence": "/audio/un danseur_sentence.wav",
-      "image": "/images/un danseur.png"
+      "id": "les quilles",
+      "text": "les quilles",
+      "sentence": "J'adore faire tomber les quilles !",
+      "audioSentence": "/audio/les quilles_sentence.wav",
+      "image": "/images/les quilles.png",
+      "audioWord": "/audio/les quilles_word.wav"
     },
     {
-      "id": "un chanteur",
-      "text": "un chanteur",
-      "sentence": "Un chanteur porte un chapeau rigolo.",
-      "audioWord": "/audio/un chanteur_word.wav",
-      "audioSentence": "/audio/un chanteur_sentence.wav",
-      "image": "/images/un chanteur.png"
+      "id": "il brille",
+      "text": "il brille",
+      "sentence": "Mon trésor, il brille beaucoup !",
+      "audioWord": "/audio/il brille_word.wav",
+      "audioSentence": "/audio/il brille_sentence.wav",
+      "image": "/images/il brille.png"
     },
     {
-      "id": "le facteur",
-      "text": "le facteur",
-      "sentence": "Le facteur fait ding dong à la porte !",
-      "audioWord": "/audio/le facteur_word.wav",
-      "audioSentence": "/audio/le facteur_sentence.wav",
-      "image": "/images/le facteur.png"
+      "id": "un gorille",
+      "text": "un gorille",
+      "sentence": "Regarde, un gorille est rigolo !",
+      "audioWord": "/audio/un gorille_word.wav",
+      "audioSentence": "/audio/un gorille_sentence.wav",
+      "image": "/images/un gorille.png"
     },
     {
-      "id": "l’auteur",
-      "text": "l’auteur",
-      "sentence": "L’auteur invente des aventures magiques.",
-      "audioWord": "/audio/l’auteur_word.wav",
-      "audioSentence": "/audio/l’auteur_sentence.wav",
-      "image": "/images/l’auteur.png"
+      "id": "un billet",
+      "text": "un billet",
+      "sentence": "J'ai un billet pour le zoo !",
+      "audioSentence": "/audio/un billet_sentence.wav",
+      "image": "/images/un billet.png"
     },
     {
-      "id": "la saveur",
-      "text": "la saveur",
-      "sentence": "J'aime la saveur de ce gâteau !",
-      "audioWord": "/audio/la saveur_word.wav",
-      "audioSentence": "/audio/la saveur_sentence.wav",
-      "image": "/images/la saveur.png"
+      "id": "elle est gentille",
+      "text": "elle est gentille",
+      "sentence": "Regarde la fée, elle est gentille et elle sourit!",
+      "audioWord": "/audio/elle est gentille_word.wav",
+      "audioSentence": "/audio/elle est gentille_sentence.wav",
+      "image": "/images/elle est gentille.png"
     }
   ]
 }

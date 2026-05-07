@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-05-03T15:00:05.133557",
+  "words": [
+    {
+      "id": "la couleur",
+      "text": "la couleur",
+      "sentence": "Devine la couleur de ma fleur !",
+      "audioWord": "/audio/la couleur_word.wav",
+      "audioSentence": "/audio/la couleur_sentence.wav",
+      "image": "/images/la couleur.png"
+    },
+    {
+      "id": "la chaleur",
+      "text": "la chaleur",
+      "sentence": "La glace fond avec la chaleur !",
+      "audioWord": "/audio/la chaleur_word.wav",
+      "audioSentence": "/audio/la chaleur_sentence.wav",
+      "image": "/images/la chaleur.png"
+    },
+    {
+      "id": "une fleur",
+      "text": "une fleur",
+      "sentence": "Regarde, une fleur jaune !",
+      "audioWord": "/audio/une fleur_word.wav",
+      "audioSentence": "/audio/une fleur_sentence.wav",
+      "image": "/images/une fleur.png"
+    },
+    {
+      "id": "un danseur",
+      "text": "un danseur",
+      "sentence": "Un danseur tourne comme une toupie !",
+      "audioWord": "/audio/un danseur_word.wav",
+      "audioSentence": "/audio/un danseur_sentence.wav",
+      "image": "/images/un danseur.png"
+    },
+    {
+      "id": "un chanteur",
+      "text": "un chanteur",
+      "sentence": "Un chanteur porte un chapeau rigolo.",
+      "audioWord": "/audio/un chanteur_word.wav",
+      "audioSentence": "/audio/un chanteur_sentence.wav",
+      "image": "/images/un chanteur.png"
+    },
+    {
+      "id": "le facteur",
+      "text": "le facteur",
+      "sentence": "Le facteur fait ding dong à la porte !",
+      "audioWord": "/audio/le facteur_word.wav",
+      "audioSentence": "/audio/le facteur_sentence.wav",
+      "image": "/images/le facteur.png"
+    },
+    {
+      "id": "l’auteur",
+      "text": "l’auteur",
+      "sentence": "L’auteur invente des aventures magiques.",
+      "audioWord": "/audio/l’auteur_word.wav",
+      "audioSentence": "/audio/l’auteur_sentence.wav",
+      "image": "/images/l’auteur.png"
+    },
+    {
+      "id": "la saveur",
+      "text": "la saveur",
+      "sentence": "J'aime la saveur de ce gâteau !",
+      "audioWord": "/audio/la saveur_word.wav",
+      "audioSentence": "/audio/la saveur_sentence.wav",
+      "image": "/images/la saveur.png"
+    }
+  ]
+}

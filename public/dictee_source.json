@@ -1,12 +1,22 @@
 {
-  "number": 28,
-  "sound": "eur",
-  "title": "Dictée #28 - le son \"eur\" - Classroom",
-  "stream_id": "861694019007",
-  "classroom_url": "https://classroom.google.com/u/0/c/Nzk2MjQ3NzI4MzEx/a/ODYxNjk0MDE5MDA3/details",
-  "posted_dates": ["Apr 27", "Apr 29"],
-  "attachment_name": "28-Dictée (eur).pdfPDF",
-  "attachment_url": "https://drive.google.com/file/d/1NRf3VqDz70EQi5lCYtuQt_LGotxMr0Ff/view",
-  "harvest_date": "2026-05-03",
-  "updated_app_at": "2026-05-03"
+  "number": 29,
+  "sound": "ille",
+  "title": "Dictée #29 - le son \"ille\" - Classroom",
+  "stream_id": "863493610112",
+  "classroom_url": "https://classroom.google.com/u/0/c/Nzk2MjQ3NzI4MzEx/a/ODYzNDkzNjEwMTEy/details",
+  "posted_dates": [],
+  "attachment_name": "29-Dictée (ille).pdfPDF",
+  "attachment_url": "https://drive.google.com/file/d/15OZMwsjhvKe2QvcI1SFi_TJPucl8_7k-/view",
+  "harvest_date": "2026-05-07",
+  "updated_app_at": "2026-05-07",
+  "words": [
+    "une cheville",
+    "un papillon",
+    "la vanille",
+    "les quilles",
+    "il brille",
+    "un gorille",
+    "un billet",
+    "elle est gentille"
+  ]
 }
