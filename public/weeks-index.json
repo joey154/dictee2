@@ -1,12 +1,26 @@
 {
   "weeks": [
     {
+      "id": "week-2026-05-07",
+      "label": "7 mai — ille",
+      "sound": "ille",
+      "date": "2026-05-07",
+      "path": "",
+      "current": true
+    },
+    {
+      "id": "week-2026-05-03",
+      "label": "3 mai — eur",
+      "sound": "eur",
+      "date": "2026-05-03",
+      "path": "/weeks/week-2026-05-07-previous-28-eur"
+    },
+    {
       "id": "week-2026-02-10",
       "label": "10 fév — g dur",
       "sound": "g dur",
       "date": "2026-02-10",
-      "path": "",
-      "current": true
+      "path": "/weeks/week-2026-02-10"
     },
     {
       "id": "week-2026-02-03",
