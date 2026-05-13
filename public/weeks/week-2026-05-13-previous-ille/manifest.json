@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-05-07T15:31:17.779160",
+  "words": [
+    {
+      "id": "une cheville",
+      "text": "une cheville",
+      "sentence": "Un éléphant a une cheville très grosse.",
+      "audioWord": "/audio/une cheville_word.wav",
+      "audioSentence": "/audio/une cheville_sentence.wav",
+      "image": "/images/une cheville.png"
+    },
+    {
+      "id": "un papillon",
+      "text": "un papillon",
+      "sentence": "Un papillon danse dans les fleurs.",
+      "audioWord": "/audio/un papillon_word.wav",
+      "audioSentence": "/audio/un papillon_sentence.wav",
+      "image": "/images/un papillon.png"
+    },
+    {
+      "id": "la vanille",
+      "text": "la vanille",
+      "sentence": "Miam, la vanille est si bonne !",
+      "audioWord": "/audio/la vanille_word.wav",
+      "audioSentence": "/audio/la vanille_sentence.wav",
+      "image": "/images/la vanille.png"
+    },
+    {
+      "id": "les quilles",
+      "text": "les quilles",
+      "sentence": "J'adore faire tomber les quilles !",
+      "audioSentence": "/audio/les quilles_sentence.wav",
+      "image": "/images/les quilles.png",
+      "audioWord": "/audio/les quilles_word.wav"
+    },
+    {
+      "id": "il brille",
+      "text": "il brille",
+      "sentence": "Mon trésor, il brille beaucoup !",
+      "audioWord": "/audio/il brille_word.wav",
+      "audioSentence": "/audio/il brille_sentence.wav",
+      "image": "/images/il brille.png"
+    },
+    {
+      "id": "un gorille",
+      "text": "un gorille",
+      "sentence": "Regarde, un gorille est rigolo !",
+      "audioWord": "/audio/un gorille_word.wav",
+      "audioSentence": "/audio/un gorille_sentence.wav",
+      "image": "/images/un gorille.png"
+    },
+    {
+      "id": "un billet",
+      "text": "un billet",
+      "sentence": "J'ai un billet pour le zoo !",
+      "audioSentence": "/audio/un billet_sentence.wav",
+      "image": "/images/un billet.png"
+    },
+    {
+      "id": "elle est gentille",
+      "text": "elle est gentille",
+      "sentence": "Regarde la fée, elle est gentille et elle sourit!",
+      "audioWord": "/audio/elle est gentille_word.wav",
+      "audioSentence": "/audio/elle est gentille_sentence.wav",
+      "image": "/images/elle est gentille.png"
+    }
+  ]
+}
