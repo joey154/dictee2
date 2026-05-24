@@ -1,22 +1,24 @@
 {
-  "number": 30,
-  "sound": "ien",
-  "title": "Dictée #30 - le son \"ien\" - Classroom",
-  "stream_id": "864327817075",
-  "classroom_url": "https://classroom.google.com/u/0/c/Nzk2MjQ3NzI4MzEx/a/ODY0MzI3ODE3MDc1/details",
-  "posted_dates": [],
-  "attachment_name": "30-Dictée (ien).pdfPDF",
-  "attachment_url": "https://drive.google.com/file/d/1b8JlpdKqdckW1KESqcNpPPrqQw74L-9b/view",
-  "harvest_date": "2026-05-13",
-  "updated_app_at": "2026-05-13",
+  "number": 31,
+  "sound": "ail/aille",
+  "title": "Dictée #31 - le son \"ail\" et \"aille\" - Classroom",
+  "stream_id": "797884636524",
+  "classroom_url": "https://classroom.google.com/u/0/c/Nzk2MjQ3NzI4MzEx/a/Nzk3ODg0NjM2NTI0/details",
+  "posted_dates": [
+    "May 20"
+  ],
+  "attachment_name": "31-Dictée (ail, aille).pdfPDF",
+  "attachment_url": "https://drive.google.com/file/d/1OenJvhyxcRyW3JeHHkr6IRYsSLBsTxni/view",
+  "harvest_date": "2026-05-24",
+  "updated_app_at": "2026-05-24",
   "words": [
-    "un bienfait",
-    "un musicien",
-    "à bientôt",
-    "combien",
-    "je reviens",
-    "un gardien",
-    "elle vient",
-    "ancien"
+    "le travail",
+    "une paille",
+    "les écailles",
+    "une médaille",
+    "une faille",
+    "un vitrail",
+    "la taille",
+    "un chandail"
   ]
 }

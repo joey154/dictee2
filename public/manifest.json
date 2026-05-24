@@ -1,69 +1,69 @@
 {
-  "generatedAt": "2026-05-13T15:32:27.912743",
+  "generatedAt": "2026-05-24T09:15:34.356508",
   "words": [
     {
-      "id": "un bienfait",
-      "text": "un bienfait",
-      "sentence": "Aider ses amis est un bienfait.",
-      "audioWord": "/audio/un bienfait_word.wav",
-      "audioSentence": "/audio/un bienfait_sentence.wav",
-      "image": "/images/un bienfait.png"
+      "id": "le travail",
+      "text": "le travail",
+      "sentence": "Mon robot fait le travail !",
+      "audioWord": "/audio/le travail_word.wav",
+      "audioSentence": "/audio/le travail_sentence.wav",
+      "image": "/images/le travail.png"
     },
     {
-      "id": "un musicien",
-      "text": "un musicien",
-      "sentence": "Un musicien joue de la guitare.",
-      "audioWord": "/audio/un musicien_word.wav",
-      "audioSentence": "/audio/un musicien_sentence.wav",
-      "image": "/images/un musicien.png"
+      "id": "une paille",
+      "text": "une paille",
+      "sentence": "Je souffle des bulles avec une paille.",
+      "audioWord": "/audio/une paille_word.wav",
+      "audioSentence": "/audio/une paille_sentence.wav",
+      "image": "/images/une paille.png"
     },
     {
-      "id": "à bientôt",
-      "text": "à bientôt",
-      "sentence": "On mange des gâteaux, à bientôt !",
-      "audioWord": "/audio/à bientôt_word.wav",
-      "audioSentence": "/audio/à bientôt_sentence.wav",
-      "image": "/images/à bientôt.png"
+      "id": "les écailles",
+      "text": "les écailles",
+      "sentence": "Le dragon a les écailles.",
+      "audioWord": "/audio/les écailles_word.wav",
+      "audioSentence": "/audio/les écailles_sentence.wav",
+      "image": "/images/les écailles.png"
     },
     {
-      "id": "combien",
-      "text": "combien",
-      "sentence": "Combien de petits monstres comptes-tu ?",
-      "audioSentence": "/audio/combien_sentence.wav",
-      "image": "/images/combien.png",
-      "audioWord": "/audio/combien_word.wav"
+      "id": "une médaille",
+      "text": "une médaille",
+      "sentence": "J'ai une médaille en chocolat!",
+      "audioWord": "/audio/une médaille_word.wav",
+      "audioSentence": "/audio/une médaille_sentence.wav",
+      "image": "/images/une médaille.png"
     },
     {
-      "id": "je reviens",
-      "text": "je reviens",
-      "sentence": "Je reviens pour jouer !",
-      "audioSentence": "/audio/je reviens_sentence.wav",
-      "image": "/images/je reviens.png",
-      "audioWord": "/audio/je reviens_word.wav"
+      "id": "une faille",
+      "text": "une faille",
+      "sentence": "Le trésor est derrière une faille secrète !",
+      "audioSentence": "/audio/une faille_sentence.wav",
+      "image": "/images/une faille.png",
+      "audioWord": "/audio/une faille_word.wav"
     },
     {
-      "id": "un gardien",
-      "text": "un gardien",
-      "sentence": "Un gardien arrête le ballon !",
-      "audioWord": "/audio/un gardien_word.wav",
-      "image": "/images/un gardien.png",
-      "audioSentence": "/audio/un gardien_sentence.wav"
+      "id": "un vitrail",
+      "text": "un vitrail",
+      "sentence": "Le soleil brille sur un vitrail.",
+      "audioSentence": "/audio/un vitrail_sentence.wav",
+      "image": "/images/un vitrail.png",
+      "audioWord": "/audio/un vitrail_word.wav"
     },
     {
-      "id": "elle vient",
-      "text": "elle vient",
-      "sentence": "Mon amie, elle vient jouer!",
-      "audioSentence": "/audio/elle vient_sentence.wav",
-      "image": "/images/elle vient.png",
-      "audioWord": "/audio/elle vient_word.wav"
+      "id": "la taille",
+      "text": "la taille",
+      "sentence": "Ma taille grandit chaque année !",
+      "audioWord": "/audio/la taille_word.wav",
+      "audioSentence": "/audio/la taille_sentence.wav",
+      "image": "/images/la taille.png"
     },
     {
-      "id": "ancien",
-      "text": "ancien",
-      "sentence": "J'ai un ancien trésor de pirate.",
-      "audioSentence": "/audio/ancien_sentence.wav",
-      "image": "/images/ancien.png",
-      "audioWord": "/audio/ancien_word.wav"
+      "id": "un chandail",
+      "text": "un chandail",
+      "sentence": "Le singe porte un chandail.",
+      "audioSentence": "/audio/un chandail_sentence.wav",
+      "image": "/images/un chandail.png",
+      "audioWord": "/audio/un chandail_word.wav"
     }
   ]
 }

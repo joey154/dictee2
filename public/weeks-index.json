@@ -1,12 +1,19 @@
 {
   "weeks": [
     {
+      "id": "week-2026-05-24",
+      "label": "20 mai — ail/aille",
+      "sound": "ail/aille",
+      "date": "2026-05-20",
+      "path": "",
+      "current": true
+    },
+    {
       "id": "week-2026-05-13",
       "label": "13 mai — ien",
       "sound": "ien",
       "date": "2026-05-13",
-      "path": "",
-      "current": true
+      "path": "/weeks/week-2026-05-24-previous-30-ien"
     },
     {
       "id": "week-2026-05-07",

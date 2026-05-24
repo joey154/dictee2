@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-05-13T15:32:27.912743",
+  "words": [
+    {
+      "id": "un bienfait",
+      "text": "un bienfait",
+      "sentence": "Aider ses amis est un bienfait.",
+      "audioWord": "/audio/un bienfait_word.wav",
+      "audioSentence": "/audio/un bienfait_sentence.wav",
+      "image": "/images/un bienfait.png"
+    },
+    {
+      "id": "un musicien",
+      "text": "un musicien",
+      "sentence": "Un musicien joue de la guitare.",
+      "audioWord": "/audio/un musicien_word.wav",
+      "audioSentence": "/audio/un musicien_sentence.wav",
+      "image": "/images/un musicien.png"
+    },
+    {
+      "id": "à bientôt",
+      "text": "à bientôt",
+      "sentence": "On mange des gâteaux, à bientôt !",
+      "audioWord": "/audio/à bientôt_word.wav",
+      "audioSentence": "/audio/à bientôt_sentence.wav",
+      "image": "/images/à bientôt.png"
+    },
+    {
+      "id": "combien",
+      "text": "combien",
+      "sentence": "Combien de petits monstres comptes-tu ?",
+      "audioSentence": "/audio/combien_sentence.wav",
+      "image": "/images/combien.png",
+      "audioWord": "/audio/combien_word.wav"
+    },
+    {
+      "id": "je reviens",
+      "text": "je reviens",
+      "sentence": "Je reviens pour jouer !",
+      "audioSentence": "/audio/je reviens_sentence.wav",
+      "image": "/images/je reviens.png",
+      "audioWord": "/audio/je reviens_word.wav"
+    },
+    {
+      "id": "un gardien",
+      "text": "un gardien",
+      "sentence": "Un gardien arrête le ballon !",
+      "audioWord": "/audio/un gardien_word.wav",
+      "image": "/images/un gardien.png",
+      "audioSentence": "/audio/un gardien_sentence.wav"
+    },
+    {
+      "id": "elle vient",
+      "text": "elle vient",
+      "sentence": "Mon amie, elle vient jouer!",
+      "audioSentence": "/audio/elle vient_sentence.wav",
+      "image": "/images/elle vient.png",
+      "audioWord": "/audio/elle vient_word.wav"
+    },
+    {
+      "id": "ancien",
+      "text": "ancien",
+      "sentence": "J'ai un ancien trésor de pirate.",
+      "audioSentence": "/audio/ancien_sentence.wav",
+      "image": "/images/ancien.png",
+      "audioWord": "/audio/ancien_word.wav"
+    }
+  ]
+}
